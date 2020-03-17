@@ -1,0 +1,55 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.app-root {
+  text-align: center;
+}
+
+.app-header {
+  text-align: center;
+  background-color: #222;
+  padding: 10px;
+  color: white;
+  font-size: 20pt;
+  display: flex;
+  flex-direction: row
+}
+
+.app-input {
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 0 8px;
+  color: #666;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+.app-button {
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 0 8px;
+  color: #666;
+  width: 120px;
+  margin-bottom: 30px;
+}
+
+.app-searches-restaurants {
+  background-color: #222;
+  padding: 10px;
+  justify-content: space-between;
+  color: white;
+  font-size: 20pt;
+}
+
+.app-searches-users {
+  background-color: #222;
+  padding: 10px;
+  color: white;
+  font-size: 20pt;
+}
